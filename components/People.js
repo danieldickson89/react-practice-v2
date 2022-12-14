@@ -20,7 +20,7 @@ export default class People extends React.Component {
         {
           this.state.people
             .map(person =>
-              <p key={person.age}>{person.firstName}</p>
+              <p key={person._id}>{person.firstName}</p>
             )
         }
       </ul>
